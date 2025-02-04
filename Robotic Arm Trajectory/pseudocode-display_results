@@ -1,0 +1,10 @@
+function display_resutlts(opt_delay,time_away,consi_time,meanD,corrected_meanD,maxD,corrected_maxD)
+ {
+    // Priint results (here presented in a Pythonic way)
+    fprint("delay:   ", opt_delay, "\n")
+    fprint("totalTimeAwayFromTraj:   ",time_away,"\n")
+    fprint("consistentTimeAway:  ", consi_time,"\n")
+    fprint("meanD (init: {meanD}; corrected: {corrected_meanD})")
+    fprint("maxD (init: {maxD}; corrected: {corrected_maxD})")
+    
+}

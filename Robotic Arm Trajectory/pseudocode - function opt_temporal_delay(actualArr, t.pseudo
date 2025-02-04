@@ -1,0 +1,29 @@
+function opt_temporal_delay(actualArr, targetArr,meanD) {
+    
+// Set our optimal delay to 
+opt_delay = 0
+min_mean_dist = Inf
+
+
+    for (i=1:50) {
+
+        // Calculate the euclidian distance between the shofted arrays, and find the mean distance.
+        acc_shifted = actualArr((i + 1:end), :)
+        tgt_shifted = targetArr(1:(end - i),):
+        mean_dist = mean(sqrt(sum((acc_shifted - tgt_shifted) ** 2,2)))
+
+
+        // Compare if a new smaller minimum distance has been found, and update the variables accordingly
+        if mean_dist < min_mean_dist
+            min_mean_dist = mean_dist
+            opt_delay = i
+
+
+    }
+    // Calculate the difference in time between each element of actual and target arrays. If there is a mismatch, increment the delay by one frame 
+
+    
+return opt_delay, min_mean_dist
+
+
+}
