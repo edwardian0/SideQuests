@@ -1,0 +1,15 @@
+{
+    "presets": [
+        { "id": 1, "ISO": 0, "ExposureSeconds": 0, "WhiteBalance": 0, "Focus": -1.0 },
+        { "id": 2, "ISO": 100, "ExposureSeconds": 0.0083, "WhiteBalance": 3000, "Focus": 0.0 },
+        { "id": 3, "ISO": 100, "ExposureSeconds": 0.0100, "WhiteBalance": 4500, "Focus": 0.5 },
+        { "id": 4, "ISO": 100, "ExposureSeconds": 0.0333, "WhiteBalance": 6000, "Focus": 1.0 },
+        { "id": 5, "ISO": 400, "ExposureSeconds": 0.0083, "WhiteBalance": 4500, "Focus": 1.0 },
+        { "id": 6, "ISO": 400, "ExposureSeconds": 0.0100, "WhiteBalance": 6000, "Focus": 0.0 },
+        { "id": 7, "ISO": 400, "ExposureSeconds": 0.0333, "WhiteBalance": 3000, "Focus": 0.5 },
+        { "id": 8, "ISO": 250, "ExposureSeconds": 0.0083, "WhiteBalance": 6000, "Focus": 0.5 },
+        { "id": 9, "ISO": 250, "ExposureSeconds": 0.0100, "WhiteBalance": 3000, "Focus": 1.0 },
+        { "id": 10, "ISO": 250, "ExposureSeconds": 0.0333, "WhiteBalance": 4500, "Focus": 0.0 }
+    ]
+}
+
